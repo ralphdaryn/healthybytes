@@ -11,6 +11,16 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+/* Desktop 1920px = 1920 / 16 = 120 */
+@media (max-width: 120em) {
+  .hero {
+    max-width: 100em;
+    margin: 0 auto;
+  }
+  .testimonial {
+    text-align: center;
+  }
+}
 
 /* Desktop 1440px = 1440 / 16 = 90 */
 
@@ -193,10 +203,6 @@
     font-size: 3rem;
   }
 
-  .testimonial-img {
-    margin-left: 20rem;
-  }
-
   .section-cta {
     padding: 1rem 3rem 2rem 3rem;
   }
@@ -214,9 +220,6 @@
   .diets {
     grid-column: 1/-1;
     justify-self: center;
-  }
-  .testimonial-img {
-    margin-left: 10rem;
   }
   .pricing-plan {
     width: 100%;
@@ -271,8 +274,5 @@
   }
   .section-features {
     padding: 1rem;
-  }
-  .testimonial-img {
-    margin-left: 8rem;
   }
 }

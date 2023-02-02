@@ -258,7 +258,7 @@ a {
 }
 
 .order {
-  width: 65%;
+  width: 55%;
   border-radius: 50%;
 }
 
@@ -502,7 +502,6 @@ a {
   border-radius: 50%;
   row-gap: 1rem;
   column-gap: 5rem;
-  margin-left: 6rem;
 }
 
 .testimonial-text {
