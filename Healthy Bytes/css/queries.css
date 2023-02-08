@@ -113,6 +113,10 @@
   html {
     font-size: 50%;
   }
+  .logo {
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+  }
   .heading-primary {
     font-size: 3em;
   }
@@ -274,5 +278,8 @@
   }
   .section-features {
     padding: 1rem;
+  }
+  .logos img {
+    height: 4rem;
   }
 }
