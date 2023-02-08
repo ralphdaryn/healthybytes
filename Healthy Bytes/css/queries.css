@@ -11,6 +11,14 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+/* Desktop 4k 2560px / 16 = 160 */
+@media (max-width: 160em) {
+  .hero {
+    max-width: 110em;
+    margin: 0 auto;
+  }
+}
+
 /* Desktop 1920px = 1920 / 16 = 120 */
 @media (max-width: 120em) {
   .hero {
